@@ -12,11 +12,9 @@ nombre de la Universidad y Carrera:
 
 Nombres completos de los integrantes:
 
--Josvay Alejandra Paez Olivo C.I:
-31.756.424
+-Josvay Alejandra Paez Olivo
 
--Kevin Rafael Lugo Martinez C.I:
-31.363.841
+-Kevin Rafael Lugo Martinez
 
 Enunciado asignado:
 
