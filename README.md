@@ -24,26 +24,22 @@ Enunciado asignado:
 
 Instrucciones breves para ejecutar el proyecto:
 
-1-Abrir la terminal: Abre una terminal(Git Bash por comodidad) dentro de la carpeta del proyecto
+1-Abrir una terminal dentro de la carpeta del proyecto
 
-2-Instalar dependencias: Ejecuta este comando para descargar las carpetas necesarias de Laravel: composer install
+2-Ejecutar este comando para descargar las dependencias necesarias de Laravel: composer install
 
-3-Configurar el archivo .env: Busca el archivo .env.example, cambiale el nombre a .env
+3-Configurar el archivo .env, usamos este comando para hacerlo mas facil: cp .env.example .env
 
-Abre ese archivo .env y asegurate de que diga: DB_CONNECTION=sqlite
+4-Generamos la "Llave Maestra" con este comando: php artisan key:generate
 
-4-Crear la Base de Datos:
+5-Preparamos la Base de Datos:
 
-Dentro de la carpeta database, crea un archivo nuevo vacio llamado database.sqlite
+Dentro de la carpeta database, creamos un archivo nuevo vacío llamado database.sqlite
 
-5-Prepara la aplicacion: Ejecuta estos dos comandos en orden:
+6-Creamos las tablas (Migraciones) con: php artisan migrate
 
-php artisan key:generate
+7-Ver el proyecto:
 
-php artisan migrate:fresh --seed
-
-6-Ver el proyecto:
-
-Ejecuta el comando:php artisan serve
+Ejecuta el comando: php artisan serve
 
 Abre en el navegador: http://127.0.0.1:8000/estudiantes
